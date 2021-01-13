@@ -1,0 +1,116 @@
+
+@font-face {
+  font-family: 'SourceCodePro-Regular';
+  src: url('font/SourceCodePro-Regular.eot');
+  src: url('font/SourceCodePro-Regular.eot?#iefix') format('embedded-opentype'),
+       url('font/SourceCodePro-Regular.svg#SourceCodePro-Regular') format('svg'),
+       url('font/SourceCodePro-Regular.ttf') format('truetype'),
+       url('font/SourceCodePro-Regular.woff') format('woff'),
+       url('font/SourceCodePro-Regular.woff2') format('woff2');
+
+}
+
+body { 
+	background: url("../images/back.png") no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+  }
+  header{
+	margin-top: 90px;
+  }
+.button  {
+  font-family: 'SourceCodePro-Regular';
+  background-color: #161614;
+  border: 1px solid #71ae8f;
+  padding: 3px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 0.775rem;
+  margin: 4px 2px;
+  cursor: pointer;
+  color: #71ae8f;
+  border-radius: 4px;
+}
+.button1  {
+  font-family: 'SourceCodePro-Regular';
+  background-color: #101d16;
+  border: 1px solid white;
+  padding: 3px 7px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 0.775rem;
+  margin: 4px 2px;
+  cursor: pointer;
+  color:#b3b5b2;
+  border-radius: 4px;
+}
+.button2  {
+  font-family: 'SourceCodePro-Regular';
+  background-color: #0e1d16;
+  border: 1px solid #9d00ff;
+  text-align: center;
+padding: 8px;
+margin-top:5px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 0.775rem;
+  cursor: pointer;
+  color: white;
+  border-radius: 4px;
+}
+.bgcolor{
+  background-color: #0e1d16;
+}
+.pstyle{
+  font-family: 'SourceCodePro-Regular';
+  text-shadow: rgb(38, 255, 145,0.5)0 0 18px;
+  text-align:left;
+  font-weight:500;
+  color:#26ff91;
+  font-size:2rem;
+}
+.pstyle1{
+  font-family: 'SourceCodePro-Regular';
+  color:white; 
+  font-size: 0.775rem;
+  margin: 0;padding: 0;
+}
+.pstyle2{
+  font-family: 'SourceCodePro-Regular';
+  text-align:left;
+  font-weight:500;
+  color:#26ff91;
+  font-size:20px;margin:0;padding:0;
+}
+.pstyle3{
+  font-family: 'SourceCodePro-Regular';
+  color:white;
+  font-size: 0.775rem;
+  font-weight: 500;
+}
+.pstyle4{
+  font-family: 'SourceCodePro-Regular';
+  color:white; font-size: 0.775rem;margin:0;padding:0;
+}
+.pstyle5{
+  font-family: 'SourceCodePro-Regular';
+  color:#26ff91; font-size: 0.775rem;text-align:right;margin:0;padding:0;
+}
+.pstyle6{
+  font-family: 'SourceCodePro-Regular';
+  text-align: center;margin:0;padding:0;color:white ; font-size: 0.575rem;
+}
+.divstyle{
+
+  border: 1px solid #9d00ff;
+  background-color:#1f1f1f;
+  margin-top:4px;
+}
+.inputstyle{
+  font-family: 'SourceCodePro-Regular';
+  border: 1px solid white;background-color: #111111;
+}

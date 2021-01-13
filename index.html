@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Excite Farms</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="images/Excite.png" rel="shortcut icon" type="image/png" />
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/index.css">
+  <script src="./bundle.js"></script>
+
+</head>
+<body>
+<div class="container">
+  <header></header>
+  <div class="row">
+<div class="col-md-2"></div>
+<div class="col-md-8">
+<div class="bgcolor"> 
+<p class="pstyle" style="display: inline-block;"> </p>
+<div class="row">
+  <div class="col-md-7">
+    <p class="pstyle1">Welcome to ETY Farm, Here you can profit from dual yield by<br/>
+      providing liquidity to our uniswap pool and still benefit of the 7% fees. Deposit both ETY/ETH in our pool and stake you UNI LP-tokens
+  </p>
+</div>
+<div class="col-md-5" style="text-align: right;">
+  <!-- <button class="button">11568580 <img src="images/circle.png" style="margin-top: -5px;" height="10" /></button> -->
+<button class="button1"><span id="address">0x000000000</span><img src="images/icon1.png" style="margin-top: -5px;" /></button></div>  
+</div>
+<br/>
+<p class="pstyle2">Active</p>
+<div class="divstyle">
+  <div style="margin-left:12px;margin-right:12px;">
+<div class="row" style="margin-top: 18px;">
+<div class="col-md-1">
+  <img src="images/136412645_1473258606367605_7967089447796122879_n.png" height="30" />
+</div>
+<div class="col-md-2">
+  <p class="pstyle3">
+  Excite <br/> UNI/ETY/ETH
+  </p>
+</div>
+<div class="col-md-2">
+  <p class="pstyle3">
+    730% <br/>Total&nbsp;APY
+    </p>
+</div>
+<div class="col-md-1">
+  <p class="pstyle3">
+    <span id="earned" style="color:#b3b5b2">99</span> ETY <br/>
+  Earned
+    </p>
+</div>
+<div class="col-md-2">
+  <p class="pstyle3">
+   <span id="balance" style="color:#b3b5b2">999</span> ETY<br/>
+    Balance
+      </p>
+</div>
+<div class="col-md-1">
+  <p class="pstyle3">
+    <span id="staked" style="color:#b3b5b2">999</span> LP Tokens <br/>
+    Staked
+      </p>
+</div>
+<div class="col-md-2">
+  <p class="pstyle3">
+    <span style="color:#b3b5b2">$0.00</span><br/>
+    Value&nbsp;Staked
+      </p>
+</div>
+<div class="col-md-1">
+  <p class="pstyle3" onclick="myFunction()">
+  <img src="images/upwards-arrow.png" height="15" />
+</p>
+</div>
+</div>
+<br/> 
+<div id="myDIV">
+<div  class="row">
+<div class="col-md-6">
+<div  class="row">
+<div class="col-md-6">
+  <p class="pstyle4" style="width: 500px;">
+    Balance : <span id="balance1" style="display: inline-block;">0</span>
+      </p>
+</div>
+
+<div class="col-md-6">
+  <p class="pstyle5">
+    Max
+      </p>
+</div>
+</div>
+
+<input type="number" id="stakeVal" class="form-control inputstyle"/>
+</div>
+
+<div class="col-md-6">
+<div class="row">
+    <div class="col-md-6">
+      <p class="pstyle4">
+        Staked :<span id="staked1">0</span>
+          </p>
+    </div>
+    
+    <div class="col-md-6">
+      <p class="pstyle5">
+        Max
+          </p>
+    </div>
+</div>    
+
+  <input type="text" id="unstakeVal" class="form-control inputstyle" type="number" />
+</div>
+
+</div>
+<div class="row">
+<div class="col-md-6">
+<Button id="stake" class="button2 btn-block"> Stake</Button>
+
+</div>
+<div class="col-md-6">
+  <Button id="unstake" class="button2 btn-block"> Unstake</Button>
+</div>
+</div>
+<br/> 
+<div class="row">
+<div class="col-md-12">
+  <Button id="harvest" class="button2 btn-block"> Harvest</Button>
+<p class="pstyle6">ETY are automatically Harvested on staking and unstaking </p>
+</div>
+
+</div>
+</div>
+<br/><br/>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-2"></div>
+  </div>
+</div>
+<script>
+  function myFunction() {
+    var x = document.getElementById("myDIV");
+    if (x.style.display === "none") {
+      x.style.display = "block";
+    } else {
+      x.style.display = "none";
+    }
+  }
+  </script>
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/popper.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+</body>
+</html>
